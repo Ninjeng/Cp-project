@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/backgroung1"
+    android:gravity="center"
+    tools:context=".SignupActivity">
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Create new user "
+    android:textColor="@color/cardview_light_background"
+    android:textSize="30dp"
+    android:layout_marginBottom="20dp"
+    />
+    <EditText
+        android:id="@+id/nameText"
+        android:layout_width="312dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:textColorHint="@color/cardview_light_background"
+        android:textColor="@color/cardview_light_background"
+        android:hint="Enter name"></EditText>
+
+    <EditText
+        android:id="@+id/emailText"
+        android:layout_width="312dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:textColorHint="@color/cardview_light_background"
+        android:textColor="@color/cardview_light_background"
+        android:hint="Enter email address"></EditText>
+    <EditText
+        android:id="@+id/dateText"
+        android:layout_width="312dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:textColorHint="@color/cardview_light_background"
+        android:textColor="@color/cardview_light_background"
+        android:hint="Select date of birth"></EditText>
+
+    <EditText
+        android:id="@+id/usernameText"
+        android:layout_width="312dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:textColorHint="@color/cardview_light_background"
+        android:textColor="@color/cardview_light_background"
+        android:hint="Enter username "></EditText>
+    <EditText
+        android:id="@+id/passwordText"
+        android:layout_width="312dp"
+        android:inputType="textPassword"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:textColorHint="@color/cardview_light_background"
+        android:textColor="@color/cardview_light_background"
+        android:hint="Enter password"></EditText>
+
+    <Button
+        android:id="@+id/registerBtn"
+        android:layout_height="wrap_content"
+        android:layout_width="312dp"
+        android:text="Signup"
+        ></Button>
+</LinearLayout>

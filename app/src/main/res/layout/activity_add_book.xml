@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/books"
+    tools:context=".AddBookActivity">
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Upload Books"
+    android:textSize="30dp"
+    android:textColor="@color/lightBlack"
+    android:textStyle="bold"
+    />
+    <EditText
+        android:id="@+id/titletxt"
+        android:layout_width="312dp"
+        android:layout_height="wrap_content"
+        android:hint="Title"
+        android:layout_margin="30dp"
+        android:textSize="20dp"
+        android:textColor="@color/cardview_light_background"
+        android:textColorHint="@color/cardview_light_background"
+        />
+
+    <EditText
+        android:id="@+id/authortxt"
+        android:layout_width="312dp"
+        android:layout_height="wrap_content"
+        android:hint="Author"
+        android:textSize="20dp"
+        android:layout_margin="30dp"
+        android:textColor="@color/cardview_light_background"
+        android:textColorHint="@color/cardview_light_background"
+        />
+
+    <EditText
+        android:id="@+id/yeartxt"
+        android:layout_width="312dp"
+        android:layout_height="wrap_content"
+        android:hint="Year"
+        android:textSize="20dp"
+        android:textColor="@color/cardview_light_background"
+        android:layout_margin="30dp"
+        android:textColorHint="@color/cardview_light_background"
+        />
+
+    <EditText
+        android:id="@+id/publishertxt"
+        android:layout_width="312dp"
+        android:layout_height="wrap_content"
+        android:hint="Publisher"
+        android:textSize="20dp"
+        android:layout_margin="30dp"
+        android:textColor="@color/cardview_light_background"
+        android:textColorHint="@color/cardview_light_background"
+        />
+    <Button
+
+        android:layout_width="312dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/uploadBtn"
+        android:text="Upload"
+        android:layout_margin="30dp"
+
+        />
+</LinearLayout>

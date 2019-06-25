@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cardview_light_background">
+
+    <ImageButton
+        android:id="@+id/libraryBtn"
+        android:layout_width="120dp"
+        android:layout_height="70dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="152dp"
+        android:layout_marginBottom="16dp"
+        android:background="@color/lightBlack"
+        android:backgroundTint="@color/Transparent"
+        android:gravity="center"
+        android:scaleType="centerInside"
+        android:src="@drawable/bookself"
+        android:text="Library"
+        android:textColor="@color/darkBlack"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageButton
+        android:id="@+id/downloadBtn"
+        android:layout_width="120dp"
+        android:layout_height="70dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="284dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@color/Transparent"
+        android:gravity="center"
+        android:scaleType="centerInside"
+        android:src="@drawable/download"
+        android:text="Library"
+        android:textColor="@color/darkBlack"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageButton
+        android:id="@+id/personBtn"
+        android:layout_width="120dp"
+        android:layout_height="70dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@color/Transparent"
+        android:gravity="center"
+        android:scaleType="centerInside"
+        android:src="@drawable/person"
+        android:text="Library"
+        android:textColor="@color/darkBlack"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ListView
+        android:id="@+id/bookListview"
+        android:layout_width="334dp"
+        android:layout_height="476dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginBottom="112dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"></ListView>
+
+</android.support.constraint.ConstraintLayout>
